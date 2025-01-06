@@ -1,0 +1,30 @@
+.filas {
+  @include flex-c();
+  margin: 0px 5rem;
+  gap: 1.5rem;
+}
+
+.fila-cards {
+  @include flex-row($gap: 24px);
+  width: 100%;
+}
+
+.card {
+  @include flex-c();
+  min-width: 150px;
+  max-width: 250px;
+  gap: 1rem;
+  
+  
+}
+
+.imagen {
+  background-image: url(/img/xyzcharlize-nMaynn82WZ0-unsplash-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 160px;
+  border-radius: 12px;
+  position: relative;
+}

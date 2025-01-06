@@ -1,0 +1,23 @@
+.chip{
+    @include flex-row();
+    background-color: $color-verde;
+    padding: 4px 8px;
+    color: $color-marron;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.chip-popular{
+    position: absolute;
+    color: $color-gris;
+    margin: 12px;
+    background-color: $color-mostaza;
+    padding: 4px 12px;
+    border-radius: 300px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+
+

@@ -1,0 +1,17 @@
+@media (max-width: 640px) {
+  .fila-cards {
+    @include flex-c();
+    width: 100%;
+  }
+  .intro {
+    div {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  article {
+    margin: 80px 25px 80px 25px;
+  }
+}

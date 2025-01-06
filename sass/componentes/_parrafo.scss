@@ -1,0 +1,75 @@
+.intro {
+  @include flex-c(center, center);
+  text-align: center;
+  gap: 20px;
+  padding-top: 60px ; 
+  margin-bottom: 20px;
+  margin-left: 1rem;
+  margin-right:  1rem;;
+}
+
+h1 {
+  color: white;
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.intro{
+    div{
+        width: 500px
+    }
+}
+
+.intro{
+    div{
+        p{
+            width: 100%;
+        }
+    }
+}
+
+h3 {
+  color: white;
+}
+
+.intro {
+  div {
+    p {
+      color: $color-gris;
+    }
+  }
+}
+
+div {
+  p {
+    width: 30rem;
+  }
+}
+
+.contenido {
+  width: 100%;
+}
+
+.rating {
+  @include flex-row($gap: 4px);
+  
+}
+
+p {
+  span {
+    color: $color-gris;
+  }
+}
+
+.rating {
+  p {
+    color: white;
+  }
+}
+
+.sub {
+  @include flex-row($justify: space-between);
+  margin-bottom: 8px;
+}

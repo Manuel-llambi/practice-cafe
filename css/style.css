@@ -27,7 +27,7 @@
 }
 
 .imagen {
-  background-image: url(../../img/xyzcharlize-nMaynn82WZ0-unsplash-2.jpg);
+  background-image: url("../img/xyzcharlize-nMaynn82WZ0-unsplash-2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -86,7 +86,7 @@ button {
 
 .fondo {
   background-color: #111315;
-  background-image: url(./img/bg-cafe.jpg);
+  background-image: url("./img/bg-cafe.jpg");
   background-repeat: no-repeat;
   background-size: contain;
 }

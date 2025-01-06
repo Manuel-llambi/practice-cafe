@@ -86,7 +86,7 @@ button {
 
 .fondo {
   background-color: #111315;
-  background-image: url("./img/bg-cafe.jpg");
+  background-image: url("../img/bg-cafe.jpg");
   background-repeat: no-repeat;
   background-size: contain;
 }
